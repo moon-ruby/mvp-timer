@@ -1,0 +1,2985 @@
+[
+ {
+  "id": 20610,
+  "name": "Valkyrie Reginleif",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20610",
+  "specialCondition": "Spawn requirement: roughly 300 Holy Frus kills\nCooldown: 6 hours",
+  "spawns": [
+   {
+    "map": "odin_past",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 480
+   }
+  ]
+ },
+ {
+  "id": 20611,
+  "name": "Valkyrie Ingrid",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20611",
+  "specialCondition": "Spawn requirement: roughly 300 Holy Skogul kills\nCooldown: 6 hours",
+  "spawns": [
+   {
+    "map": "odin_past",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 480
+   }
+  ]
+ },
+ {
+  "id": 1502,
+  "name": "Bring it on",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1502",
+  "spawns": []
+ },
+ {
+  "id": 1038,
+  "name": "Osiris",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1038",
+  "spawns": [
+   {
+    "map": "moc_pryd04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 1039,
+  "name": "Baphomet",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1039/baphomet",
+  "spawns": [
+   {
+    "map": "prt_maze03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   },
+   {
+    "map": "gld_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   },
+   {
+    "map": "3@tower",
+    "mapType": "instance",
+    "special": "Endless Tower floor 3",
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 1046,
+  "name": "Doppelganger",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1046",
+  "spawns": [
+   {
+    "map": "gef_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   },
+   {
+    "map": "gld_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   }
+  ]
+ },
+ {
+  "id": 1059,
+  "name": "Mistress",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1059",
+  "spawns": [
+   {
+    "map": "mjolnir_04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   },
+   {
+    "map": "gld_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   }
+  ]
+ },
+ {
+  "id": 1086,
+  "name": "Golden Thief Bug",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1086",
+  "spawns": [
+   {
+    "map": "prt_sewb4",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 1087,
+  "name": "Orc Hero",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1087",
+  "spawns": [
+   {
+    "map": "gef_fild03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 1112,
+  "name": "Drake",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1112",
+  "spawns": [
+   {
+    "map": "treasure02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1115,
+  "name": "Eddga",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1115",
+  "spawns": [
+   {
+    "map": "gld_dun01_2",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   },
+   {
+    "map": "pay_fild10",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1147,
+  "name": "Maya",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1147",
+  "spawns": [
+   {
+    "map": "anthell02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   },
+   {
+    "map": "gld_dun02_2",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   },
+   {
+    "map": "gld_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   }
+  ]
+ },
+ {
+  "id": 1150,
+  "name": "Moonlight Flower",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1150",
+  "spawns": [
+   {
+    "map": "gld_dun01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   },
+   {
+    "map": "pay_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 1157,
+  "name": "Pharaoh",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1157",
+  "spawns": [
+   {
+    "map": "in_sphinx5",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 1159,
+  "name": "Phreeoni",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1159",
+  "spawns": [
+   {
+    "map": "moc_fild17",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1190,
+  "name": "Orc Lord",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1190",
+  "spawns": [
+   {
+    "map": "gef_fild10",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1251,
+  "name": "Stormy Knight",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1251",
+  "spawns": [
+   {
+    "map": "xmas_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 1252,
+  "name": "Hatii-Garm",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1252",
+  "spawns": [
+   {
+    "map": "xmas_fild01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1272,
+  "name": "Dark Lord",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1272",
+  "spawns": [
+   {
+    "map": "gl_chyard",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   },
+   {
+    "map": "gld_dun04_2",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   }
+  ]
+ },
+ {
+  "id": 1312,
+  "name": "Turtle General",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1312",
+  "spawns": [
+   {
+    "map": "tur_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 1389,
+  "name": "Dracula",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1389",
+  "spawns": [
+   {
+    "map": "gef_dun01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 1418,
+  "name": "Evil Snake Lord",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1418",
+  "spawns": [
+   {
+    "map": "gon_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 94,
+    "respawnMax": 104
+   }
+  ]
+ },
+ {
+  "id": 1492,
+  "name": "Incantation Samurai",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1492",
+  "spawns": [
+   {
+    "map": "ama_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 91,
+    "respawnMax": 101
+   }
+  ]
+ },
+ {
+  "id": 1511,
+  "name": "Amon Ra",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1511",
+  "spawns": [
+   {
+    "map": "moc_pryd06",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 1583,
+  "name": "Tao Gunka",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1583",
+  "spawns": [
+   {
+    "map": "beach_dun",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 310
+   }
+  ]
+ },
+ {
+  "id": 1623,
+  "name": "RSX-0806",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1623",
+  "spawns": [
+   {
+    "map": "ein_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 125,
+    "respawnMax": 135
+   }
+  ]
+ },
+ {
+  "id": 1630,
+  "name": "White Lady",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1630",
+  "spawns": [
+   {
+    "map": "lou_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 117,
+    "respawnMax": 127
+   }
+  ]
+ },
+ {
+  "id": 1646,
+  "name": "Lord Knight Seyren",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1646",
+  "spawns": [
+   {
+    "map": "lhz_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1647,
+  "name": "Assassin Cross Eremes",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1647",
+  "spawns": [
+   {
+    "map": "lhz_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1648,
+  "name": "Whitesmith Howard",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1648",
+  "spawns": [
+   {
+    "map": "lhz_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1649,
+  "name": "High Priest Margaretha",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1649",
+  "spawns": [
+   {
+    "map": "lhz_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1650,
+  "name": "Sniper Cecil",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1650",
+  "spawns": [
+   {
+    "map": "lhz_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1651,
+  "name": "High Wizard Kathryne",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1651",
+  "spawns": [
+   {
+    "map": "lhz_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1658,
+  "name": "Egnigem Cenia",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1658",
+  "spawns": [
+   {
+    "map": "lhz_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1685,
+  "name": "Vesper",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1685",
+  "spawns": [
+   {
+    "map": "jupe_core",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1688,
+  "name": "Lady Tanee",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1688",
+  "spawns": [
+   {
+    "map": "ayo_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 420,
+    "respawnMax": 430
+   }
+  ]
+ },
+ {
+  "id": 1708,
+  "name": "Thanatos Phantom",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1708",
+  "specialCondition": "The top of The Thanatos Tower.",
+  "spawns": [
+   {
+    "map": "thana_boss",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 1719,
+  "name": "Detale",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1719",
+  "spawns": [
+   {
+    "map": "abyss_03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 180,
+    "respawnMax": 190
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "name": "Kiel D-01",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1734",
+  "spawns": [
+   {
+    "map": "kh_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1751,
+  "name": "Valkyrie Randgris",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1751",
+  "spawns": [
+   {
+    "map": "odin_tem03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   }
+  ]
+ },
+ {
+  "id": 20618,
+  "name": "Bone Detardeurus",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20618",
+  "spawns": [
+   {
+    "map": "abyss_04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 180,
+    "respawnMax": 190
+   }
+  ]
+ },
+ {
+  "id": 1768,
+  "name": "Gloom Under Night",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1768",
+  "spawns": [
+   {
+    "map": "ra_san05",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 310
+   }
+  ]
+ },
+ {
+  "id": 1779,
+  "name": "Ktullanux",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1779",
+  "specialCondition": "Ice Necklace Quest: https://irowiki.org/wiki/Ice_Necklace_Quest",
+  "spawns": [
+   {
+    "map": "ice_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 1785,
+  "name": "Atroce",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1785",
+  "spawns": [
+   {
+    "map": "gld_dun03_2",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   },
+   {
+    "map": "ra_fild03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 180,
+    "respawnMax": 190
+   },
+   {
+    "map": "ra_fild04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 310
+   },
+   {
+    "map": "ve_fild01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 180,
+    "respawnMax": 190
+   },
+   {
+    "map": "ve_fild02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 360,
+    "respawnMax": 370
+   }
+  ]
+ },
+ {
+  "id": 1832,
+  "name": "Ifrit",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1832",
+  "spawns": [
+   {
+    "map": "thor_v03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 660,
+    "respawnMax": 670
+   }
+  ]
+ },
+ {
+  "id": 1871,
+  "name": "Falling Bishop",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1871",
+  "spawns": [
+   {
+    "map": "abbey02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1874,
+  "name": "Beelzebub",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1874",
+  "specialCondition": "Beelzebub (Fly Form) must transform into Phase 2.",
+  "spawns": [
+   {
+    "map": "abbey03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 720,
+    "respawnMax": 730
+   }
+  ]
+ },
+ {
+  "id": 1885,
+  "name": "Gopinich",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1885",
+  "spawns": [
+   {
+    "map": "mosk_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 1917,
+  "name": "Wounded Morocc",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1917",
+  "spawns": [
+   {
+    "map": "moc_fild22",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 720,
+    "respawnMax": 730
+   }
+  ]
+ },
+ {
+  "id": 1956,
+  "name": "Naght Sieger",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1956",
+  "specialCondition": "Endless Tower final boss",
+  "spawns": [
+   {
+    "map": "6@tower",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 1957,
+  "name": "Entweihen Crothen",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1957",
+  "specialCondition": "Endless Tower boss",
+  "spawns": [
+   {
+    "map": "5@tower",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2022,
+  "name": "Nidhoggr's Shadow",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2022",
+  "specialCondition": "Nidhoggur's Nest (Level 2) Instance Map",
+  "spawns": [
+   {
+    "map": "2@nyd",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2068,
+  "name": "Boitata",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2068",
+  "spawns": [
+   {
+    "map": "bra_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2087,
+  "name": "Queen Scaraba",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2087",
+  "spawns": [
+   {
+    "map": "dic_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2131,
+  "name": "Lost Dragon",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2131",
+  "specialCondition": "The Hazy Maze Forest  Instance Map",
+  "spawns": [
+   {
+    "map": "1@mist",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2156,
+  "name": "Leak",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2156",
+  "spawns": [
+   {
+    "map": "dew_dun01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2165,
+  "name": "Gold Queen Scaraba",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2165",
+  "specialCondition": "Quest needed Hall's admission requires Scaraba Perfume. Curious Sapha (dic_dun01 266/113) sell perfume in Kamidal Tunnel.\nEntrance gatekeeper are Dirty Vigilante (dic_dun0 284/102), he stay next to gatekeeper of normal scaraba.",
+  "spawns": [
+   {
+    "map": "dic_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2187,
+  "name": "Dark Coelacanth",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2187",
+  "specialCondition": "Drain 1 (1@pump)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@pump",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2194,
+  "name": "Giant Octopus",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2194",
+  "specialCondition": "Octopus Cave (1@cash)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@cash",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2202,
+  "name": "Kraken",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2202",
+  "spawns": [
+   {
+    "map": "iz_dun05",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 150
+   }
+  ]
+ },
+ {
+  "id": 2235,
+  "name": "Paladin Randel",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2235",
+  "spawns": [
+   {
+    "map": "lhz_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2236,
+  "name": "Creator Flamel",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2236",
+  "spawns": [
+   {
+    "map": "lhz_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2237,
+  "name": "Professor Celia",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2237",
+  "spawns": [
+   {
+    "map": "lhz_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2238,
+  "name": "Champion Chen",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2238",
+  "spawns": [
+   {
+    "map": "lhz_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2239,
+  "name": "Stalker Gertie",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2239",
+  "spawns": [
+   {
+    "map": "lhz_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2240,
+  "name": "Clown Alphoccio",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2240",
+  "spawns": [
+   {
+    "map": "lhz_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2241,
+  "name": "Gypsy Trentini",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2241",
+  "spawns": [
+   {
+    "map": "lhz_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 100,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 2249,
+  "name": "Pyuriel",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2249",
+  "specialCondition": "Hall of the Abyss : Warrior road",
+  "spawns": [
+   {
+    "map": "gld2_prt",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   }
+  ]
+ },
+ {
+  "id": 2251,
+  "name": "Gioia",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2251",
+  "specialCondition": "Hall of the Abyss : Tear of Hero",
+  "spawns": [
+   {
+    "map": "gld2_ald",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   }
+  ]
+ },
+ {
+  "id": 2252,
+  "name": "Elvira",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2252",
+  "specialCondition": "Hall of the Abyss : Tear of Hero",
+  "spawns": [
+   {
+    "map": "gld2_ald",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 30,
+    "respawnMax": 40
+   }
+  ]
+ },
+ {
+  "id": 2253,
+  "name": "Daehyon",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2253",
+  "specialCondition": "Hall of the Abyss : Wind of beginning",
+  "spawns": [
+   {
+    "map": "gld2_pay",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   }
+  ]
+ },
+ {
+  "id": 2254,
+  "name": "Soheon",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2254",
+  "specialCondition": "Hall of the Abyss : Wind of beginning",
+  "spawns": [
+   {
+    "map": "gld2_pay",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 30,
+    "respawnMax": 40
+   }
+  ]
+ },
+ {
+  "id": 2255,
+  "name": "Kades",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2255",
+  "specialCondition": "Hall of the Abyss : Hill of death",
+  "spawns": [
+   {
+    "map": "gld2_gef",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 490
+   }
+  ]
+ },
+ {
+  "id": 2256,
+  "name": "Rudo",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2256",
+  "specialCondition": "Hall of the Abyss : Hill of death",
+  "spawns": [
+   {
+    "map": "gld2_gef",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 30,
+    "respawnMax": 40
+   }
+  ]
+ },
+ {
+  "id": 2319,
+  "name": "Buwaya",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2319",
+  "specialCondition": "Buwaya Cave (1@ma_c)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@ma_c",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2327,
+  "name": "Bangungot",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2327",
+  "specialCondition": "Malaya Bangungot Hospital 2F (1@ma_h)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@ma_h",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2362,
+  "name": "Amon Ra (Nightmare)",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2362",
+  "spawns": [
+   {
+    "map": "moc_prydn2",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 2441,
+  "name": "The Last One",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2441",
+  "specialCondition": "TE Subterranean Guild Dungeon",
+  "spawns": [
+   {
+    "map": "teg_dun01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 480,
+    "respawnMax": 480
+   }
+  ]
+ },
+ {
+  "id": 2442,
+  "name": "King of the Alley",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2442",
+  "specialCondition": "TE Subterranean Guild Dungeon",
+  "spawns": [
+   {
+    "map": "teg_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 2475,
+  "name": "Corrupted Soul",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2475",
+  "specialCondition": "Old Glast Heim Chivalry 2F (1@gl_k)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@gl_k",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2476,
+  "name": "Amdarais",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2476",
+  "specialCondition": "Old Glast Heim Chivalry 1F (2@gl_k)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "2@gl_k",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2483,
+  "name": "Baphomet (Nightmare)",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2483",
+  "spawns": [
+   {
+    "map": "gl_cas02_",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 2529,
+  "name": "Faceworm Queen",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2529",
+  "specialCondition": "Faceworm's Nest (1@face)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@face",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2564,
+  "name": "Geffen Fenrir",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2564",
+  "specialCondition": "Geffen Magic Tournament (1@ge_st)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@ge_st",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2942,
+  "name": "Evil Fanatics",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2942",
+  "specialCondition": "Morroc Castle - Basement (1@tnm3)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@tnm3",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 20260,
+  "name": "Shining Teddy Bear",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20260",
+  "specialCondition": "Spawn after defeating 2500 Teddy Bears on map.",
+  "spawns": [
+   {
+    "map": "ein_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 20273,
+  "name": "Ancient Tao Gunka",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20273",
+  "specialCondition": "Spawn after defeating 1500 mobs on map.",
+  "spawns": [
+   {
+    "map": "com_d02_i",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 20277,
+  "name": "Ancient Wootan Defender",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20277",
+  "specialCondition": "Spawn after defeating 1500 mobs on map.",
+  "spawns": [
+   {
+    "map": "com_d02_i",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 20340,
+  "name": "EL1-A17T",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20340",
+  "specialCondition": "Cor Memorial (1@cor)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@cor",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 20346,
+  "name": "Miguel",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20346",
+  "specialCondition": "Os Occupation (1@os_a)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@os_a",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 20381,
+  "name": "R48-85-Bestia",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20381",
+  "spawns": [
+   {
+    "map": "sp_rudus2",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 360,
+    "respawnMax": 370
+   }
+  ]
+ },
+ {
+  "id": 20419,
+  "name": "Rigid Muspellskoll",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20419",
+  "spawns": [
+   {
+    "map": "mag_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 20421,
+  "name": "Corrupted Spider Queen",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20421",
+  "spawns": [
+   {
+    "map": "gl_cas01_",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 20422,
+  "name": "Corrupted Dark Lord",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20422",
+  "spawns": [
+   {
+    "map": "gl_cas01_",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 20601,
+  "name": "Jewel Ungoliant",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20601",
+  "spawns": [
+   {
+    "map": "ein_dun03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 20620,
+  "name": "Red Pepper",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20620",
+  "specialCondition": "Hidden Flower Garden (1@herbs)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@herbs",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 20621,
+  "name": "Senior Red Pepper",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20621",
+  "specialCondition": "Hidden Garden - Hard Mode (1@herbs(hard))\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@herbs",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 20642,
+  "name": "Sweety",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20642",
+  "specialCondition": "Twilight Garden - Unfair Dock (1@bamq)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@bamq",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 20648,
+  "name": "Boss Meow",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20648",
+  "spawns": [
+   {
+    "map": "ba_lost",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 20659,
+  "name": "Pitaya Boss",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20659",
+  "specialCondition": "Farm of Forgotten Time (1@lost)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@lost",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 20667,
+  "name": "Silva Papilia",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20667",
+  "specialCondition": "Water Garden - Orthos Aqua (1@ghg)",
+  "spawns": [
+   {
+    "map": "1@ghg",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 20668,
+  "name": "Gran Papilia",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20668",
+  "specialCondition": "Water Garden - Hard Mode (1@ghg(hard))\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@ghg",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 20811,
+  "name": "Deep Sea Kraken",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20811",
+  "specialCondition": "Spawn after defeating 1500 mobs on map.",
+  "spawns": [
+   {
+    "map": "iz_d04_i",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 20843,
+  "name": "Deep Sea Witch",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20843",
+  "specialCondition": "Spawn after defeating 1500 mobs on map.",
+  "spawns": [
+   {
+    "map": "iz_d05_i",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 20928,
+  "name": "The One",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20928",
+  "spawns": [
+   {
+    "map": "amicitia2",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 180,
+    "respawnMax": 190
+   }
+  ]
+ },
+ {
+  "id": 20934,
+  "name": "R001-Bestia",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20934",
+  "spawns": [
+   {
+    "map": "sp_rudus4",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 360,
+    "respawnMax": 370
+   }
+  ]
+ },
+ {
+  "id": 20943,
+  "name": "Death Witch",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20943",
+  "spawns": [
+   {
+    "map": "nif_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 180,
+    "respawnMax": 190
+   }
+  ]
+ },
+ {
+  "id": 21301,
+  "name": "Burning Fang",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/21301",
+  "spawns": [
+   {
+    "map": "oz_dun02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 360,
+    "respawnMax": 370
+   }
+  ]
+ },
+ {
+  "id": 21395,
+  "name": "Silent Maya",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/21395",
+  "specialCondition": "Spawn after defeating 3000 mobs on map.",
+  "spawns": [
+   {
+    "map": "ant_d02_i",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 3473,
+  "name": "Stefan.J.E.Wolf",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3473",
+  "specialCondition": "Aerial Fortress Top Floor (1@sthd)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@sthd",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3505,
+  "name": "Big Eggring",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3505",
+  "spawns": [
+   {
+    "map": "lasa_dun01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 3621,
+  "name": "Cutie",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3621",
+  "specialCondition": "Werner's Laboratory quest",
+  "spawns": [
+   {
+    "map": "slabw01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3628,
+  "name": "Heart Hunter Ebel",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3628",
+  "specialCondition": "Heart Hunter War Base (1@swat)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@swat",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3633,
+  "name": "Venomous Chimera",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3633",
+  "spawns": [
+   {
+    "map": "slabw01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 3658,
+  "name": "Lich Lord",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3658",
+  "specialCondition": "Friday Memorial (1@md_gef)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@md_gef",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3659,
+  "name": "Lich Lord (hard)",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3659",
+  "specialCondition": "Friday Memorial - Hard Mode (1@md_gef(hard))\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@md_gef",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3741,
+  "name": "Mechaspider",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3741",
+  "spawns": [
+   {
+    "map": "rockmi1",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 3757,
+  "name": "Dracula of Rage",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3757",
+  "specialCondition": "Spawn after defeating Bomi.",
+  "spawns": [
+   {
+    "map": "gef_d01_i",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 3758,
+  "name": "Angry Moonlight Flower",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3758",
+  "specialCondition": "10% chance to spawn after defeating 1000 Angry Nine Tail.",
+  "spawns": [
+   {
+    "map": "pay_d03_i",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3796,
+  "name": "Awakened Ktullanux",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3796",
+  "specialCondition": "Spawn after unlocking 4 Crystal Seals on map.",
+  "spawns": [
+   {
+    "map": "ice_d03_i",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 3804,
+  "name": "Ominous Turtle General",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3804",
+  "specialCondition": "Spawn after defeating 2500 of the same mob on map.",
+  "spawns": [
+   {
+    "map": "tur_d04_i",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 3810,
+  "name": "King Poring",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3810",
+  "specialCondition": "Poring Village (Beginner Instance) (1@begi)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@begi",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 2996,
+  "name": "Celine Kimi",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2996",
+  "specialCondition": "Horror Toy Factory (1@xm_d)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@xm_d",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3029,
+  "name": "Grim Reaper Ankou",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3029",
+  "specialCondition": "Bios Island Room 3 (1@dth3)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@dth3",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3073,
+  "name": "Awakened Ferre",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3073",
+  "specialCondition": "Jitterbug of Nightmare (1@jtb)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@jtb",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3074,
+  "name": "Time Holder",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3074",
+  "spawns": [
+   {
+    "map": "c_tower3_",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 3124,
+  "name": "Charleston 3",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3124",
+  "specialCondition": "Charleston Factory (1@mcd)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@mcd",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3181,
+  "name": "Captain Ferlock",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3181",
+  "specialCondition": "Airship Assault (1@air2)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@air2",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3190,
+  "name": "Sarah Irene",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3190",
+  "specialCondition": "Sarah and Fenrir (1@glast)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@glast",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3220,
+  "name": "Guillotine Cross Eremes",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3220",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3221,
+  "name": "Arch Bishop Margaretha",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3221",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3222,
+  "name": "Ranger Shecil",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3222",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3223,
+  "name": "Mechanic Harword",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3223",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3224,
+  "name": "Warlock Katrinn",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3224",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3225,
+  "name": "Rune Knight Seyren",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3225",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3240,
+  "name": "Royal Guard Randel",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3240",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3241,
+  "name": "Genetic Flamel",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3241",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3242,
+  "name": "Sorcerer Celia",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3242",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3243,
+  "name": "Sura Chen",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3243",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3244,
+  "name": "Shadow Chaser Gertie",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3244",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3245,
+  "name": "Minstrel Alphoccio",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3245",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3246,
+  "name": "Wanderer Trentini",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3246",
+  "specialCondition": "Tomb of the Fallen.\n1 MVP spawn after 4 kill of the mini-boss.",
+  "spawns": [
+   {
+    "map": "lhz_dun_n",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3254,
+  "name": "T_W_O",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3254",
+  "specialCondition": "The Last Room (1@uns)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@uns",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3426,
+  "name": "Infinite Eddga",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3426",
+  "specialCondition": "Infinite Space (1@infi)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@infi",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3427,
+  "name": "Infinite Osiris",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3427",
+  "specialCondition": "Infinite Space (1@infi)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@infi",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3428,
+  "name": "Infinite Phreeoni",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3428",
+  "specialCondition": "Infinite Space (1@infi)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@infi",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3429,
+  "name": "Infinite Orc Hero",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3429",
+  "specialCondition": "Infinite Space (1@infi)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@infi",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3430,
+  "name": "Infinite Tao Gunka",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3430",
+  "specialCondition": "Infinite Space (1@infi)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@infi",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 3450,
+  "name": "Bijou",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3450",
+  "specialCondition": "Ritual Room (1@mir)\n*Instance Map",
+  "spawns": [
+   {
+    "map": "1@mir",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   }
+  ]
+ },
+ {
+  "id": 21537,
+  "name": "Ultra Limacina",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/21537/ultra-limacina",
+  "spawns": [
+   {
+    "map": "jor_back3",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 21980,
+  "name": "Sanctuary Cleaning",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/21980",
+  "spawns": [
+   {
+    "map": "jor_root3",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 21996,
+  "name": "Snowstorm Angel",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/21996",
+  "spawns": [
+   {
+    "map": "jor_back4",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 130
+   }
+  ]
+ },
+ {
+  "id": 21950,
+  "name": "Gaia Pol",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/21950",
+  "spawns": [
+   {
+    "map": "ra_pol01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 360,
+    "respawnMax": 360
+   }
+  ]
+ },
+ {
+  "id": 21955,
+  "name": "Renire",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/21955",
+  "spawns": [
+   {
+    "map": "mjo_wst01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 360,
+    "respawnMax": 360
+   }
+  ]
+ },
+ {
+  "id": 20118,
+  "name": "Goblin King",
+  "category": "mvp",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/20118",
+  "spawns": [
+   {
+    "map": "clock_01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 360,
+    "respawnMax": 360
+   }
+  ]
+ },
+ {
+  "id": 1089,
+  "name": "Toad",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1089",
+  "spawns": [
+   {
+    "map": "cmd_fild03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   },
+   {
+    "map": "gef_fild01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   }
+  ]
+ },
+ {
+  "id": 1090,
+  "name": "Mastering",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1090",
+  "spawns": [
+   {
+    "map": "pay_fild04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   },
+   {
+    "map": "prt_maze03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 32,
+    "respawnMax": 35
+   },
+   {
+    "map": "xmas_dun01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 30,
+    "respawnMax": 42
+   },
+   {
+    "map": "yuno_fild04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   }
+  ]
+ },
+ {
+  "id": 1091,
+  "name": "Dragon Fly",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1091",
+  "spawns": [
+   {
+    "map": "moc_fild18",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   }
+  ]
+ },
+ {
+  "id": 1092,
+  "name": "Vagabond Wolf",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1092",
+  "spawns": [
+   {
+    "map": "prt_maze01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   },
+   {
+    "map": "prt_maze03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 32,
+    "respawnMax": 35
+   }
+  ]
+ },
+ {
+  "id": 1093,
+  "name": "Eclipse",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1093",
+  "spawns": [
+   {
+    "map": "prt_fild02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 30,
+    "respawnMax": 50
+   },
+   {
+    "map": "prt_maze03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 32,
+    "respawnMax": 35
+   }
+  ]
+ },
+ {
+  "id": 1096,
+  "name": "Angeling",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1096/angeling",
+  "spawns": [
+   {
+    "map": "pay_fild04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   },
+   {
+    "map": "xmas_dun01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   },
+   {
+    "map": "yuno_fild03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   }
+  ]
+ },
+ {
+  "id": 1120,
+  "name": "Ghostring",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1120",
+  "spawns": [
+   {
+    "map": "gld_dun04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 113,
+    "respawnMax": 170
+   },
+   {
+    "map": "pay_fild04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   },
+   {
+    "map": "treasure02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 33,
+    "respawnMax": 53
+   }
+  ]
+ },
+ {
+  "id": 1302,
+  "name": "Dark Illusion",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1302",
+  "spawns": [
+   {
+    "map": "gl_chyard",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   },
+   {
+    "map": "gld_dun04_2",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 20,
+    "respawnMax": 20
+   },
+   {
+    "map": "gld2_gef",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 20,
+    "respawnMax": 20
+   }
+  ]
+ },
+ {
+  "id": 1388,
+  "name": "Arc Angeling",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1388",
+  "spawns": [
+   {
+    "map": "yuno_fild04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 70
+   }
+  ]
+ },
+ {
+  "id": 1765,
+  "name": "Valkyrie",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1765",
+  "spawns": [
+   {
+    "map": "odin_tem03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 90,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 1990,
+  "name": "Hardrock Mammoth",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1990",
+  "spawns": [
+   {
+    "map": "man_fild03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 240,
+    "respawnMax": 240
+   }
+  ]
+ },
+ {
+  "id": 1991,
+  "name": "Tendrillion",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1991",
+  "specialCondition": "2x",
+  "spawns": [
+   {
+    "map": "spl_fild03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 60
+   }
+  ]
+ },
+ {
+  "id": 2250,
+  "name": "Lora",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/2250",
+  "specialCondition": "Hall of the Abyss : Warrior road",
+  "spawns": [
+   {
+    "map": "gld2_prt",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 30,
+    "respawnMax": 40
+   }
+  ]
+ },
+ {
+  "id": 3756,
+  "name": "Bomi",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/3756",
+  "spawns": [
+   {
+    "map": "gef_d01_i",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 120
+   }
+  ]
+ },
+ {
+  "id": 1203,
+  "name": "Mysteltainn",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1203",
+  "spawns": [
+   {
+    "map": "4@tower",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   },
+   {
+    "map": "gefenia01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 180,
+    "respawnMax": 300
+   },
+   {
+    "map": "gefenia02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 540
+   },
+   {
+    "map": "gefenia03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 540
+   },
+   {
+    "map": "gefenia04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 540
+   },
+   {
+    "map": "gl_cas02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 180
+   },
+   {
+    "map": "gl_cas02_",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 180
+   },
+   {
+    "map": "gl_knt02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 30,
+    "respawnMax": 50
+   }
+  ]
+ },
+ {
+  "id": 1204,
+  "name": "Ogretooth",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1204",
+  "spawns": [
+   {
+    "map": "4@tower",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   },
+   {
+    "map": "gefenia01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 540
+   },
+   {
+    "map": "gefenia02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 180,
+    "respawnMax": 300
+   },
+   {
+    "map": "gefenia03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 540
+   },
+   {
+    "map": "gefenia04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 540
+   },
+   {
+    "map": "gl_cas02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 180
+   }
+  ]
+ },
+ {
+  "id": 1205,
+  "name": "Executioner",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1205",
+  "spawns": [
+   {
+    "map": "4@tower",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   },
+   {
+    "map": "gefenia01",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 540
+   },
+   {
+    "map": "gefenia02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 540
+   },
+   {
+    "map": "gefenia03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 180,
+    "respawnMax": 300
+   },
+   {
+    "map": "gefenia04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 300,
+    "respawnMax": 540
+   }
+  ]
+ },
+ {
+  "id": 1259,
+  "name": "Gryphon",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1259",
+  "spawns": [
+   {
+    "map": "4@tower",
+    "mapType": "instance",
+    "special": null,
+    "respawnMin": null,
+    "respawnMax": null
+   },
+   {
+    "map": "hu_fild02",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 60
+   }
+  ]
+ },
+ {
+  "id": 1582,
+  "name": "Deviling",
+  "category": "miniboss",
+  "divinePrideUrl": "https://www.divine-pride.net/database/monster/1582",
+  "spawns": [
+   {
+    "map": "pay_fild04",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 120,
+    "respawnMax": 180
+   },
+   {
+    "map": "yuno_fild03",
+    "mapType": "open_world",
+    "special": null,
+    "respawnMin": 60,
+    "respawnMax": 90
+   }
+  ]
+ }
+]
