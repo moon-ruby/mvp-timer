@@ -8,8 +8,9 @@ self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()))
 self.addEventListener('fetch', (e) => {
   const req = e.request
   if (req.method !== 'GET' || new URL(req.url).origin !== self.location.origin) return
+  // GitHub Pages lets browsers cache index.html for 10 minutes; revalidate pages so a deploy shows up on reload.
   e.respondWith(
-    fetch(req)
+    fetch(req, req.mode === 'navigate' ? { cache: 'no-cache' } : undefined)
       .then((res) => {
         const copy = res.clone()
         caches.open(CACHE).then((c) => c.put(req, copy))
