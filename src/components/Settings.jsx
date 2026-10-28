@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { MONSTERS_BY_ID } from '../lib/monsters'
 import { notificationPermission, requestNotifications } from '../lib/notify'
 import { SOUNDS, playSound } from '../lib/sounds'
-import { uuid } from '../lib/storage'
+import { parseBackup } from '../lib/importBackup'
 import { ConfirmButton } from './common'
 import MonsterSearch from './MonsterSearch'
 
@@ -48,13 +48,12 @@ export default function Settings({ settings, setSettings, hunt, favorites, setFa
 
   const importBackup = async (file) => {
     try {
-      const data = JSON.parse(await file.text())
-      if (data.app !== 'mvp-timer' || !Array.isArray(data.timers)) throw new Error('Not an MVP Timer backup')
-      // Fresh ids so restoring into a shared room never collides with another room's rows.
-      await hunt.replaceAll(data.timers.filter((t) => MONSTERS_BY_ID.has(t.monsterId)).map((t) => ({ ...t, id: uuid() })))
-      if (Array.isArray(data.favorites)) setFavorites(data.favorites.filter((id) => MONSTERS_BY_ID.has(id)))
-      if (data.settings) setSettings((s) => ({ ...s, ...data.settings }))
-      setMessage('Backup restored.')
+      // Fresh ids (from parseBackup) so restoring into a shared room never collides with another room's rows.
+      const { timers, favorites: favs, settings: saved } = parseBackup(JSON.parse(await file.text()))
+      await hunt.replaceAll(timers)
+      if (favs) setFavorites(favs)
+      if (saved) setSettings((s) => ({ ...s, ...saved }))
+      setMessage(`Backup restored: ${timers.length} timers${favs ? `, ${favs.length} favorites` : ''}.`)
     } catch (e) {
       setMessage(`Restore failed: ${e.message}`)
     }
@@ -193,7 +192,8 @@ export default function Settings({ settings, setSettings, hunt, favorites, setFa
       <section className="panel">
         <h2>Backup</h2>
         <p className="muted small">
-          Restoring a backup replaces everything currently in Active Hunt{roomId ? ' (for everyone in this room)' : ''} and your Favorites.
+          Accepts MVP Timer backups and SovereignRO MVP Tracker backups. Restoring replaces everything currently in Active Hunt
+          {roomId ? ' (for everyone in this room)' : ''} and your Favorites.
         </p>
         <div className="row">
           <button className="btn" onClick={exportBackup}>
