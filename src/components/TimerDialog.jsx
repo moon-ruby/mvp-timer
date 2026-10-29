@@ -4,12 +4,13 @@ import { clockToTimestamp, toClockInput } from '../lib/time'
 import { Badge, Modal, Sprite } from './common'
 
 // Used both to add a timer (timer = null) and to edit one.
-export default function TimerDialog({ monsterId, timer, onSave, onClose }) {
+export default function TimerDialog({ monsterId, timer, utc = true, onSave, onClose }) {
   const monster = MONSTERS_BY_ID.get(timer?.monsterId ?? monsterId)
   const [map, setMap] = useState(timer?.map ?? defaultSpawn(monster)?.map ?? '')
   const [mode, setMode] = useState(timer?.killedAt != null ? 'clock' : 'now')
+  const [hoursAgo, setHoursAgo] = useState('')
   const [minutesAgo, setMinutesAgo] = useState('')
-  const [clock, setClock] = useState(toClockInput(timer?.killedAt ?? Date.now()))
+  const [clock, setClock] = useState(toClockInput(timer?.killedAt ?? Date.now(), utc))
   const [note, setNote] = useState(timer?.note ?? '')
 
   if (!monster) return null
@@ -18,8 +19,11 @@ export default function TimerDialog({ monsterId, timer, onSave, onClose }) {
     e.preventDefault()
     const now = Date.now()
     let killedAt = now
-    if (mode === 'ago') killedAt = now - Math.max(0, Number(minutesAgo) || 0) * 60_000
-    if (mode === 'clock') killedAt = clock ? clockToTimestamp(clock, now) : now
+    if (mode === 'ago') {
+      const minutes = (Math.max(0, Number(hoursAgo) || 0) * 60 + Math.max(0, Number(minutesAgo) || 0))
+      killedAt = now - minutes * 60_000
+    }
+    if (mode === 'clock') killedAt = clock ? clockToTimestamp(clock, now, utc) : now
     if (mode === 'none') killedAt = null
     // Moving to another map invalidates the tomb marker position.
     const marker = timer && timer.map === map ? timer.marker : null
@@ -54,8 +58,8 @@ export default function TimerDialog({ monsterId, timer, onSave, onClose }) {
           <div className="segmented">
             {[
               ['now', 'Just now'],
-              ['ago', 'Minutes ago'],
-              ['clock', 'At time'],
+              ['ago', 'Time ago'],
+              ['clock', utc ? 'At server time' : 'At time'],
               ['none', 'Unknown'],
             ].map(([value, label]) => (
               <label key={value} className={mode === value ? 'active' : ''}>
@@ -65,19 +69,39 @@ export default function TimerDialog({ monsterId, timer, onSave, onClose }) {
             ))}
           </div>
           {mode === 'ago' && (
-            <input
-              className="input"
-              type="number"
-              min="0"
-              inputMode="numeric"
-              placeholder="e.g. 47"
-              value={minutesAgo}
-              onChange={(e) => setMinutesAgo(e.target.value)}
-              autoFocus
-            />
+            <div className="ago-inputs">
+              <input
+                className="input"
+                type="number"
+                min="0"
+                inputMode="numeric"
+                placeholder="0"
+                value={hoursAgo}
+                onChange={(e) => setHoursAgo(e.target.value)}
+                aria-label="Hours ago"
+                autoFocus
+              />
+              <span>h</span>
+              <input
+                className="input"
+                type="number"
+                min="0"
+                max="59"
+                inputMode="numeric"
+                placeholder="e.g. 47"
+                value={minutesAgo}
+                onChange={(e) => setMinutesAgo(e.target.value)}
+                aria-label="Minutes ago"
+              />
+              <span>m ago</span>
+            </div>
           )}
           {mode === 'clock' && <input className="input" type="time" value={clock} onChange={(e) => setClock(e.target.value)} />}
-          {mode === 'clock' && <span className="muted small">Time from the MVP tomb. If it's later than now, yesterday is assumed.</span>}
+          {mode === 'clock' && (
+            <span className="muted small">
+              Time from the MVP tomb{utc ? ' (server time, UTC)' : ''}. If it's later than now, yesterday is assumed.
+            </span>
+          )}
         </fieldset>
 
         <label className="field">

@@ -1,7 +1,7 @@
 import { useSortable } from '@dnd-kit/sortable'
 import { CSS } from '@dnd-kit/utilities'
 import { mapThumbUrl } from '../lib/monsters'
-import { formatClock, formatDuration, getTimerStatus } from '../lib/time'
+import { formatAgo, formatClock, formatDuration, getTimerStatus } from '../lib/time'
 import { Badge, Sprite } from './common'
 
 const LABELS = {
@@ -17,6 +17,7 @@ export default function TimerCard({ timer, now, settings, isFavorite, actions })
   const status = getTimerStatus(timer, now)
   const { state, monster, spawn } = status
   if (!monster) return null
+  const utc = settings.timeZone !== 'local'
 
   let clock = '--:--'
   if (state === 'counting_down' || state === 'spawn_window') clock = formatDuration(status.remaining)
@@ -49,7 +50,8 @@ export default function TimerCard({ timer, now, settings, isFavorite, actions })
           <div className="timer-clock">{clock}</div>
           {timer.killedAt != null && spawn?.respawnMin != null && (
             <div className="muted small">
-              Killed {formatClock(timer.killedAt)} · window {formatClock(status.minAt)}–{formatClock(status.maxAt)}
+              Killed {formatClock(timer.killedAt, utc)}{utc ? ' UTC' : ''} ({formatAgo(now - timer.killedAt)}) · window{' '}
+              {formatClock(status.minAt, utc)}–{formatClock(status.maxAt, utc)}
             </div>
           )}
         </div>

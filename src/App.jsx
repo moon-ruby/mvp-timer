@@ -11,6 +11,7 @@ import { useLocalState } from './hooks/useLocalState'
 import { useNow } from './hooks/useNow'
 import { useTimers } from './hooks/useTimers'
 import { unlockAudio } from './lib/sounds'
+import { formatClock } from './lib/time'
 import { randomRoomId, uuid } from './lib/storage'
 
 const DEFAULT_SETTINGS = {
@@ -21,6 +22,7 @@ const DEFAULT_SETTINGS = {
   alertOnSpawned: false,
   notifications: false,
   goNegative: false,
+  timeZone: 'server',
   perMonsterSound: {},
 }
 
@@ -93,6 +95,7 @@ export default function App() {
     [setFavorites],
   )
 
+  const utc = settings.timeZone !== 'local'
   const closeDialog = useCallback(() => setDialog(null), [])
   const dialogTimer = dialog?.timerId ? hunt.timers.find((t) => t.id === dialog.timerId) : null
 
@@ -102,6 +105,10 @@ export default function App() {
         <div className="brand">
           <img src="./icon.svg" alt="" width="28" height="28" />
           <span>MVP Timer</span>
+        </div>
+        <div className="server-clock">
+          {utc ? 'Server' : 'Local'} <strong>{formatClock(now, utc, true)}</strong>
+          {utc ? ' UTC' : ''}
         </div>
         <nav className="tabs">
           {PAGES.map(([id, label]) => (
@@ -154,6 +161,7 @@ export default function App() {
       {dialog?.type === 'add' && (
         <TimerDialog
           monsterId={dialog.monsterId}
+          utc={utc}
           onClose={closeDialog}
           onSave={(t) => {
             hunt.add({ id: uuid(), ...t })
@@ -163,7 +171,7 @@ export default function App() {
         />
       )}
       {dialog?.type === 'edit' && dialogTimer && (
-        <TimerDialog timer={dialogTimer} onClose={closeDialog} onSave={(t) => (hunt.update(dialogTimer.id, t), closeDialog())} />
+        <TimerDialog timer={dialogTimer} utc={utc} onClose={closeDialog} onSave={(t) => (hunt.update(dialogTimer.id, t), closeDialog())} />
       )}
       {dialog?.type === 'marker' && dialogTimer && (
         <MarkerDialog timer={dialogTimer} onClose={closeDialog} onSave={(marker) => hunt.update(dialogTimer.id, { marker })} />

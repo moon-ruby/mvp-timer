@@ -30,20 +30,40 @@ export function formatDuration(ms) {
   return `${neg ? '-' : ''}${h ? `${h}:${pad(m)}` : m}:${pad(sec)}`
 }
 
-export function formatClock(ms) {
-  return new Date(ms).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+// Clock times follow the server (UTC) by default, matching the time shown on MVP tombs.
+export function formatClock(ms, utc = true, seconds = false) {
+  return new Date(ms).toLocaleTimeString('en-GB', {
+    hour: '2-digit',
+    minute: '2-digit',
+    ...(seconds ? { second: '2-digit' } : {}),
+    hourCycle: 'h23',
+    ...(utc ? { timeZone: 'UTC' } : {}),
+  })
+}
+
+export function formatAgo(ms) {
+  const totalMin = Math.max(0, Math.floor(ms / 60_000))
+  const d = Math.floor(totalMin / 1440)
+  const h = Math.floor((totalMin % 1440) / 60)
+  const m = totalMin % 60
+  if (d) return `${d}d ${h}h ago`
+  if (h) return `${h}h ${m}m ago`
+  return `${m}m ago`
 }
 
 // "HH:MM" today; if that is in the future it must have been yesterday.
-export function clockToTimestamp(hhmm, now = Date.now()) {
+export function clockToTimestamp(hhmm, now = Date.now(), utc = true) {
   const [h, m] = hhmm.split(':').map(Number)
   const d = new Date(now)
-  d.setHours(h, m, 0, 0)
-  if (d.getTime() > now) d.setDate(d.getDate() - 1)
+  if (utc) d.setUTCHours(h, m, 0, 0)
+  else d.setHours(h, m, 0, 0)
+  if (d.getTime() > now) d.setTime(d.getTime() - 86_400_000)
   return d.getTime()
 }
 
-export function toClockInput(ms) {
+export function toClockInput(ms, utc = true) {
   const d = new Date(ms)
-  return `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`
+  const h = utc ? d.getUTCHours() : d.getHours()
+  const m = utc ? d.getUTCMinutes() : d.getMinutes()
+  return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`
 }

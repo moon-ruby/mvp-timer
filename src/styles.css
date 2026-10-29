@@ -138,6 +138,10 @@ code { background: var(--panel-2); padding: 1px 6px; border-radius: 6px; }
 .form { display: grid; gap: 12px; }
 .field { display: grid; gap: 6px; border: 0; padding: 0; margin: 0; }
 .field > span { font-size: 0.85rem; color: var(--muted); }
+.ago-inputs { display: grid; grid-template-columns: 1fr auto 1fr auto; gap: 8px; align-items: center; }
+.ago-inputs span { color: var(--muted); }
+.server-clock { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 0.9rem; }
+.server-clock strong { color: var(--text); }
 .spawn-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
 .spawn-table th, .spawn-table td { text-align: left; padding: 6px 4px; border-bottom: 1px solid var(--border); }
 .spawn-table th { color: var(--muted); font-weight: 500; }

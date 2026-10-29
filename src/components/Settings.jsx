@@ -179,6 +179,20 @@ export default function Settings({ settings, setSettings, hunt, favorites, setFa
         <h2>Timers</h2>
         <div className="setting-row">
           <div>
+            <strong>Use server time (UTC)</strong>
+            <p className="muted small">Kill times, spawn windows and the "At time" input use the server clock, like the MVP tomb. Off = your local time.</p>
+          </div>
+          <label className="switch">
+            <input
+              type="checkbox"
+              checked={settings.timeZone !== 'local'}
+              onChange={(e) => set({ timeZone: e.target.checked ? 'server' : 'local' })}
+            />
+            <span />
+          </label>
+        </div>
+        <div className="setting-row">
+          <div>
             <strong>Let timers go negative once Spawned</strong>
             <p className="muted small">Shows how long ago the window closed instead of "UP".</p>
           </div>
